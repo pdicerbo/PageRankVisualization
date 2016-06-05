@@ -4,7 +4,7 @@ MyMat = np.loadtxt("newdati.txt")
 
 MyStr = "["
 
-for year in ["1990", "1995"]:
+for year in ["1990"]: #, "1995"]:
 
     MyStr += '["'
     MyStr += year
